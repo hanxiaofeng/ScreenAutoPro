@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_page_auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_400"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="@dimen/qb_px_550"
+            android:layout_height="@dimen/qb_px_400"
+            android:background="#757"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="测试标题"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/qb_px_200"
+            android:layout_height="@dimen/qb_px_400"
+            android:orientation="vertical"
+            android:background="#43b662"
+            ></LinearLayout>
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_900"
+        android:orientation="vertical"
+        android:background="#e97a7a"
+        ></LinearLayout>
+    
+
+</LinearLayout>
+
