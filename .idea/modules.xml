@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ScreenAutoPro.iml" filepath="$PROJECT_DIR$/ScreenAutoPro.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pxscreenauto/pxscreenauto.iml" filepath="$PROJECT_DIR$/pxscreenauto/pxscreenauto.iml" />
       <module fileurl="file://$PROJECT_DIR$/swscreenauto/swscreenauto.iml" filepath="$PROJECT_DIR$/swscreenauto/swscreenauto.iml" />
     </modules>
   </component>
