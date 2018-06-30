@@ -2,7 +2,6 @@
 
 #### 手机屏幕适配大全，目前常用的适配方式总结
 
-[![Latest Version](https://img.shields.io/packagist/v/intervention/image.svg)](https://packagist.org/packages/intervention/image)
 [![Build Status](https://travis-ci.org/Intervention/image.png?branch=master)](https://travis-ci.org/Intervention/image)
 
 ### 1.App:今日头条适配方式
@@ -12,8 +11,6 @@ android中的dp在渲染前会将dp转为px，
 * px = density * dp;
 * density = dpi / 160;
 * px = dp * (dpi / 160);
-
-
 
 使用方式：
 
@@ -29,11 +26,29 @@ android中的dp在渲染前会将dp转为px，
 
 使用方式：根据swdimenUtils工程生成对应的swXXXdp文件，然后在xml中直接使用即可;
 
+```
+ <LinearLayout
+            android:layout_width="@dimen/qb_px_200"
+            android:layout_height="@dimen/qb_px_400"
+            android:orientation="vertical"
+            android:background="#43b662"
+            />
+```
+
 注意：swscreenauto/swdimenUtils 用于生成values-swXXXdp文件，此适配方式是以宽度为基准进行适配，会根据手机分辨率自动找到对应的dimen值，如果找不到会向下找到最近的sw目录，适配可适应性高。
 
 
 ### 3.pxscreenauto:values-1920x1080适配方式
 
 使用方式：固定分辨率适配，自动根据屏幕分辨率进行适配，但需要提供所有的分辨率才可以保证全部适配，所以在特殊设备上可能找不到对应的分辨率，小程度存在适配问题。
+
+```
+<LinearLayout
+        android:layout_width="@dimen/w_200"
+        android:layout_height="@dimen/h_200"
+        android:orientation="horizontal"/>
+```
+
+values-1920*1080生成方式在pxscreenauto/Tool/GenerateValueFiles.java,具体使用查看Tool目录下的使用说明.txt
 
 注意：values下也要放置一组默认分辨率的xml文件，不然找不到会出现错误。

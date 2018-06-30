@@ -7,8 +7,8 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="@dimen/w_1080"
-        android:layout_height="@dimen/h_192"
+        android:layout_width="@dimen/w_200"
+        android:layout_height="@dimen/h_200"
         android:orientation="horizontal">
 
     </LinearLayout>
