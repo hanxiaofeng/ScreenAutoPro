@@ -52,3 +52,7 @@ android中的dp在渲染前会将dp转为px，
 values-1920*1080生成方式在pxscreenauto/Tool/GenerateValueFiles.java,具体使用查看Tool目录下的使用说明.txt
 
 注意：values下也要放置一组默认分辨率的xml文件，不然找不到会出现错误。
+
+
+
+备注：有人给出了更详细的解释，参考地址：https://note.youdao.com/share/?id=66cb07073329d19245b6e3aea9595269&type=note#/
