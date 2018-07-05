@@ -55,4 +55,4 @@ values-1920*1080生成方式在pxscreenauto/Tool/GenerateValueFiles.java,具体�
 
 
 
-### 备注：有人给出了更详细的解释，参考地址：https://note.youdao.com/share/?id=66cb07073329d19245b6e3aea9595269&type=note#/
+### 备注：今日头条适配方式有人给出了更详细的解释，参考地址：https://note.youdao.com/share/?id=66cb07073329d19245b6e3aea9595269&type=note#/
