@@ -1,1 +1,1 @@
-include ':app', ':swscreenauto', ':pxscreenauto'
+include ':app', ':swscreenauto', ':pxscreenauto', ':testautodemo'

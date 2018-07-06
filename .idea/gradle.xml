@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/pxscreenauto" />
             <option value="$PROJECT_DIR$/swscreenauto" />
+            <option value="$PROJECT_DIR$/testautodemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
